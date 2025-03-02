@@ -38,7 +38,7 @@ function setup() {
   select.style('font-size', '30px');
   select.option('淡江大學');
   select.option('教育科技學系');
-  select.option('YouTube');
+  select.option('week2');
   select.changed(changeWebsite);
   
   // 建立選鈕
@@ -127,8 +127,8 @@ function changeWebsite() {
     case '教育科技學系':
       selectedWebsite = 'https://www.et.tku.edu.tw';
       break;
-    case 'YouTube':
-      selectedWebsite = 'https://www.youtube.com';
+    case 'week2':
+      selectedWebsite = 'https://cfchengit.github.io/20250225/';
       break;
     default:
       selectedWebsite = 'https://www.google.com';
