@@ -16,8 +16,8 @@ canvas {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: calc(100vw - 400px); /* 視窗寬度 - 左右內距 */
-  height: calc(100vh - 400px); /* 視窗高度 - 上下內距 */
+  width: calc(100vw - 100px); /* 視窗寬度 - 左右內距 */
+  height: calc(100vh - 100px); /* 視窗高度 - 上下內距 */
   
   border: 1px solid black; /* 方便觀察 */
 }
