@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden; /* 避免捲軸 */
+}
+
+canvas {
+  display: block;
+}
+
+#myDiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100vw - 400px); /* 視窗寬度 - 左右內距 */
+  height: calc(100vh - 400px); /* 視窗高度 - 上下內距 */
+  
+  border: 1px solid black; /* 方便觀察 */
+}
+
+#myDiv iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
